@@ -1,0 +1,39 @@
+.numpad button {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.numpad button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.codepad {
+    height: 25px;
+
+}
+.numpad-pass{
+    height: 250px;
+    width: 300px;
+}
+.numpad-calc {
+    height: 500px;
+    width: 300px;
+}
+.calculator {
+    margin-top: 20px ;
+}
+.no-access {
+    color: red;
+}
+.access {
+    color: green;
+}
